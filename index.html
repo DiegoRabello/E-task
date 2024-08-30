@@ -8,34 +8,34 @@
     <link rel="icon" type="image/x-icon" href="./img/favicon-32x32.png">
     <title>E-Tasks</title>
 </head>
-<body>
-    <div class="app">
-        <header class="header-container">
-        <div class="header-description">
-            <h1>e-Tasks</h1>
-            <p>Transforme suas listas em conquistas: organize, priorize e realize!</p>
+    <body>
+        <div class="app">
+            <header class="header-container">
+                <div class="header-description">
+                    <h1>e-Tasks</h1>
+                    <p>Transforme suas listas em conquistas: organize, priorize e realize!</p>
+                </div>
+            </header>
+            <main class="main">
+                    <section class="form-body">
+                        <input type="text" id="task" placeholder="Adicione uma nova tarefa...">
+                        <button class="cadastrar" id="button_create" type="submit">Cadastrar</button>
+                    </section> 
+                <section class="tarefas">
+                    <div class="task-list">
+                        <h5>Tarefas criadas</h5>
+                        <span class="contador">0</span> 
+                    </div>
+                    <div class="task-list">
+                        <h5>Concluidas</h5>
+                        <span>0</span>
+                    </div>
+                </section>
+                <div class="no-task">
+                    <p>Nenhuma tarefa cadastrada!</p>
+                </div>
+            </main>
         </div>
-    </header>
-    <main class="main">
-            <section class="form-body">
-                <input type="text" placeholder="Adicione uma nova tarefa...">
-                <button type="submit">Cadastrar</button>
-            </section> 
-        <section class="tarefas">
-            <div class="task-list">
-                <h5>Tarefas criadas</h5>
-                <span class="contador">0</span>
-                
-            </div>
-            <div class="task-list">
-                <h5>Concluidas</h5>
-                <span>0</span>
-            </div>
-        </section>
-        <div class="no-task">
-            <p>Nenhuma tarefa cadastrada!</p>
-        </div>
-    </main>
-    </div>
-</body>
+        <script src="./js/app.js"></script>
+    </body>
 </html>
